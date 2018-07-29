@@ -7,6 +7,14 @@
     <title>haha~</title>
 </head>
 <body>
-    
-</body>
+    <canvas id="myCanvas" width="578" height="200"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      context.font = '40pt Calibri';
+      context.fillStyle = 'blue';
+      context.fillText('Hello World!', 150, 100);
+    </script>
+ </body>
 </html>
